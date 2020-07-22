@@ -47,7 +47,7 @@
         justify-content: center;
         align-items: center;
 
-        background: url(../assets/kfc.jpg) no-repeat fixed center top;
+        background: url(../assets/background/kfc.jpg) no-repeat fixed center top;
 
         .el-timeline {
             padding: 30px 80px;
