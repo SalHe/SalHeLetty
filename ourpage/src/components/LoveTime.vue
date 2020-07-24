@@ -67,7 +67,7 @@
                     .type(`<strong>${durationText}</strong>`);
 
                 if (day === 365) {
-                    this.typeIt.break()
+                    typeIt.break()
                         .type('哇哦，整整一年了唉~');
                 }
 
