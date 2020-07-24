@@ -8,6 +8,7 @@
         <audio ref="player" preload="auto"
                :src="bgm.path"
                @canplay="onCanPlay"
+               @play="onPlay"
                @ended="onPlayEnded"
                muted
                autoplay
@@ -16,7 +17,7 @@
         ></audio>
         <div class="player">
             <img class="cover" :class="{animated: playing}" :src="bgm.cover"/>
-            <h3 class="title">{{ (playing?'🎵 ':'')+ bgm.title + bgm.author }}</h3>
+            <h3 class="title">{{ (playing?'🎵 ':'')+ bgm.title + ' - ' + bgm.author }}</h3>
         </div>
         <router-view/>
     </div>
@@ -75,6 +76,9 @@
             },
             onPlayEnded() {
                 this.currentBgm++;
+            },
+            onPlay() {
+                this.playing = true;
             },
             playAudio() {
                 this.$refs.player.play();
