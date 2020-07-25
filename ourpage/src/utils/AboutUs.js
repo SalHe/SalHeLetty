@@ -58,42 +58,42 @@ const AboutUs = {
             icon: 'el-icon-s-promotion'
         },
         {
-            timestamp: '2019-01-10',
+            timestamp: '2020-01-10',
             content: '我回家了，但是没能见到你',
             type: 'danger'
         },
         {
-            timestamp: '2019-01-11',
+            timestamp: '2020-01-11',
             content: '你借去同学家的名义找我耍，然后我们意外知道，第二天我们可以去同一个人家吃酒',
             type: 'success',
             icon: 'el-icon-sunny'
         },
         {
-            timestamp: '2019-01-12',
+            timestamp: '2020-01-12',
             content: '意外的跟你坐上了你爸爸的车',
             type: 'success',
             icon: 'el-icon-sunny'
         },
         {
-            timestamp: '2019-01-12',
+            timestamp: '2020-01-12',
             content: '今天喝酒够呛，我第一次喝醉了',
             type: 'success',
             icon: 'el-icon-goblet-full'
         },
         {
-            timestamp: '2019-01-13',
+            timestamp: '2020-01-13',
             content: '下午我去你外婆家那点找你耍，一起去了奶茶吧，吃了烧烤',
             type: 'success',
             icon: 'el-icon-milk-tea'
         },
         {
-            timestamp: '2019-01-20',
+            timestamp: '2020-01-20',
             content: '做贼般的悄悄去找你，王兴骑车接我还摔了一跤',
             type: 'success',
             icon: 'el-icon-bicycle'
         },
         {
-            timestamp: '2019-01-21',
+            timestamp: '2020-01-21',
             content: '给你送快递，还有米皮；等车回家时，你让彬彬给我送来你亲手做的蛋挞，还有蓝莓、车厘子、酸奶，锡纸是心形的。',
             type: 'success',
             icon: 'el-icon-bicycle'
